@@ -1,4 +1,4 @@
-# USE_CASES.md — Use Cases & Executed SQL
+# Use Cases & Executed SQL
 
 This document enumerates the application’s use cases, the SQL executed for each (with %s placeholders for parameter binding via PyMySQL), and the server-side validations/edge cases implemented in app.py. It maps directly to Part 3 requirements for the Airline Ticket Reservation System.
 
