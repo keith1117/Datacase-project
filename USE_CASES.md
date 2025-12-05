@@ -57,8 +57,8 @@ SELECT airline_name, flight_number, departure_date_time, arrival_date_time,
 FROM Flight
 WHERE departure_date_time > NOW()
   AND status <> 'CANCELLED'
-  /* + AND departure_airport=%s        -- if provided */
-  /* + AND arrival_airport=%s          -- if provided */
+  /* + AND departure_airport=%s         -- if provided */
+  /* + AND arrival_airport=%s           -- if provided */
   /* + AND DATE(departure_date_time)=%s -- if provided */
 ORDER BY departure_date_time;
 ```
@@ -310,6 +310,6 @@ ORDER BY ym;
 - Friendly errors: Invalid actions flash a message and redirect back to the relevant page.
 
 ## 4) Error Handling
-- Missing/invalid inputs → flash() and redirect to the originating page.
-- Record not found (e.g., unknown flight) → flash("Flight not found") and return to search.
+- Missing/invalid inputs -> flash() and redirect to the originating page.
+- Record not found (e.g., unknown flight) -> flash("Flight not found") and return to search.
 - DB errors during development shown in console; in production they should be logged and a generic message returned.
