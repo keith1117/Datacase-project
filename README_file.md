@@ -99,11 +99,13 @@ static/
 
 sql/
   create_tables.sql         Schema (Part 2 + constraints)
-  seed_data.sql             Sample data (optional)
+  insert.sql                Sample data
 
 .env.example                 Example environment config (copy → .env)
 requirements.txt             Python dependencies (if included)
 README_file.md               This README
+USE_CASES.md                 All use cases description
+Summary.md                   Team contribution
 ```
 
 ## 4) Running Details
