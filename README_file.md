@@ -101,11 +101,11 @@ sql/
   create_tables.sql         Schema (Part 2 + constraints)
   insert.sql                Sample data
 
-.env                         Environment config
-requirements.txt             Python dependencies (if included)
-README_file.md               This README
-USE_CASES.md                 All use cases description
-Summary.md                   Team contribution
+.env                        Environment config
+requirements.txt            Python dependencies (if included)
+README_file.md              This README
+USE_CASES.md                All use cases description
+Summary.md                  Team contribution
 ```
 
 ## 4) Running Details
